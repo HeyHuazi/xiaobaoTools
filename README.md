@@ -1,4 +1,4 @@
-# Xiaobot TOC 浏览器扩展
+# XiaoBotTools
 
 这是一个为小报童文章自动生成目录的浏览器扩展。
 
