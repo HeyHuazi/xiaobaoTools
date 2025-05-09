@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Xiaobot TOC",
+  "version": "1.0",
+  "description": "为小报童文章生成目录",
+  "icons": {
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://xiaobot.net/post/*"],
+      "js": ["js/content.js"],
+      "css": ["css/styles.css"]
+    }
+  ]
+}
